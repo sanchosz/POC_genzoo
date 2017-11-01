@@ -1,0 +1,149 @@
+{
+	"gens": [
+		{
+			"n":0,
+			"name": "ideology",
+			"skills": [
+				{
+					"n":0,
+					"name": "predator"
+				},
+				{
+					"n":1,
+					"name": "peacfull"
+				},
+				{
+					"n":2,
+					"name": "friendly"
+				}
+			]
+		},
+		{
+			"n":1,
+			"name": "groupable",
+			"skills": [
+				{
+					"n":0,
+					"name": "single"
+				},
+				{
+					"n":1,
+					"name": "flock"
+				},
+				{
+					"n":2,
+					"name": "swarm"
+				}
+			]		
+		},
+		{
+			"n":2,
+			"name": "size",
+			"skills": [
+				{
+					"n":0,
+          "name": "dwarf",
+          "mul_health": 0.5,
+          "mul_demage": 0.5,
+          "mul_speed":  2
+				},
+        {
+          "n": 1,
+          "name": "small",
+          "mul_health": 0.75,
+          "mul_demage": 0.75,
+          "mul_speed": 1.5
+        },
+        {
+          "n": 2,
+          "name": "reguar",
+          "mul_health": 1,
+          "mul_demage": 1,
+          "mul_speed": 1
+        },
+        {
+          "n": 3,
+          "name": "big",
+          "mul_health": 1.5,
+          "mul_demage": 1.5,
+          "mul_speed": 1
+        },
+        {
+          "n": 4,
+          "name": "huge",
+          "mul_health": 3,
+          "mul_demage": 3,
+          "mul_speed": 0.75
+        },
+        {
+          "n": 5,
+          "name": "giant",
+          "mul_health": 5,
+          "mul_demage": 5,
+          "mul_speed": 0.5
+        }
+			]	
+		},
+		{
+			"n":3,
+			"name": "speed",
+			"skills": [
+        {
+          "n": 0,
+          "name": "slow",
+          "mul_speed": 0.5
+        },
+        {
+          "n": 1,
+          "name": "avarage",
+          "mul_speed": 1
+        },
+        {
+          "n": 2,
+          "name": "fast",
+          "mul_speed": 2
+        }
+			]
+		},
+		{
+			"n":4,
+			"name": "teeth",
+      "skills": [
+        {
+          "n": 0,
+          "name": "no teeth"
+        },
+        {
+          "n": 1,
+          "name": "canines",
+          "mul_demage": 1.2,
+          "add_skills": ""
+        },
+        {
+          "n": 2,
+          "name": "Can tear",
+          "mul_demage": 1.4,
+          "add_skills": "tear"
+        },
+        {
+          "n": 3,
+          "name": "vampirism",
+          "mul_demage": 1.4,
+          "add_skills": "vampire"
+        },
+        {
+          "n": 4,
+          "name": "Poisoned bite",
+          "mul_demage": 1.2,
+          "add_skills": "poisoned_demage"
+        },
+        {
+          "n": 5,
+          "name": "Sabre-toothed",
+          "mul_demage": 1.6,
+          "add_skills": ""
+        }
+      ]
+		}	
+	]
+}

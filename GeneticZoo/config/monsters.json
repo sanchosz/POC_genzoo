@@ -1,0 +1,388 @@
+{
+  "monsters": [
+    {
+      "instance": "spider",
+      "hp": 300,
+      "demage": 150,
+      "speed": 70,
+      "armor": 0,
+      "stamina": 500,
+      "gens": [
+        {
+          "n": 0,
+          "name": "ideology",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 1,
+          "name": "groupable",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "name": "size",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 10
+            },
+            {
+              "n_skill": 1,
+              "probablity": 20
+            },
+            {
+              "n_skill": 2,
+              "probablity": 30
+            },
+            {
+              "n_skill": 3,
+              "probablity": 15
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "name": "speed",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 20
+            },
+            {
+              "n_skill": 1,
+              "probablity": 60
+            },
+            {
+              "n_skill": 2,
+              "probablity": 20
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "name": "perception",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 5
+            },
+            {
+              "n_skill": 1,
+              "probablity": 10
+            },
+            {
+              "n_skill": 2,
+              "probablity": 10
+            },
+            {
+              "n_skill": 3,
+              "probablity": 50
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 10
+            },
+            {
+              "n_skill": 6,
+              "probablity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instance": "wolf",
+      "hp": 800,
+      "demage": 80,
+      "speed": 120,
+      "armor": 0,
+      "stamina": 800,
+      "gens": [
+        {
+          "n": 0,
+          "name": "ideology",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 1,
+          "name": "groupable",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "name": "size",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 10
+            },
+            {
+              "n_skill": 1,
+              "probablity": 20
+            },
+            {
+              "n_skill": 2,
+              "probablity": 30
+            },
+            {
+              "n_skill": 3,
+              "probablity": 15
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "name": "speed",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 20
+            },
+            {
+              "n_skill": 1,
+              "probablity": 60
+            },
+            {
+              "n_skill": 2,
+              "probablity": 20
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "name": "perception",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 5
+            },
+            {
+              "n_skill": 1,
+              "probablity": 10
+            },
+            {
+              "n_skill": 2,
+              "probablity": 10
+            },
+            {
+              "n_skill": 3,
+              "probablity": 50
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 10
+            },
+            {
+              "n_skill": 6,
+              "probablity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instance": "hare",
+      "hp": 250,
+      "demage": 50,
+      "speed": 150,
+      "armor": 0,
+      "stamina": 500,
+      "gens": [
+        {
+          "n": 0,
+          "name": "ideology",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 1,
+          "name": "groupable",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 80
+            },
+            {
+              "n_skill": 1,
+              "probablity": 15
+            },
+            {
+              "n_skill": 2,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "name": "size",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 10
+            },
+            {
+              "n_skill": 1,
+              "probablity": 20
+            },
+            {
+              "n_skill": 2,
+              "probablity": 30
+            },
+            {
+              "n_skill": 3,
+              "probablity": 15
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 5
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "name": "speed",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 20
+            },
+            {
+              "n_skill": 1,
+              "probablity": 60
+            },
+            {
+              "n_skill": 2,
+              "probablity": 20
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "name": "perception",
+          "skills": [
+            {
+              "n_skill": 0,
+              "probablity": 5
+            },
+            {
+              "n_skill": 1,
+              "probablity": 10
+            },
+            {
+              "n_skill": 2,
+              "probablity": 10
+            },
+            {
+              "n_skill": 3,
+              "probablity": 50
+            },
+            {
+              "n_skill": 4,
+              "probablity": 10
+            },
+            {
+              "n_skill": 5,
+              "probablity": 10
+            },
+            {
+              "n_skill": 6,
+              "probablity": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
