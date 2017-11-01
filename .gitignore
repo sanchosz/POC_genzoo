@@ -52,3 +52,6 @@
 /GeneticZoo/GeneticZoo.vcxproj.filters
 /GeneticZoo/Debug/vc141.idb
 /GeneticZoo/Debug/GeneticZoo.log
+/.vs/POC_GenZoo/v15
+/x64/*
+/GeneticZoo/x64/Debug

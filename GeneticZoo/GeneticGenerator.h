@@ -1,7 +1,7 @@
 #pragma once
 #include <boost\property_tree\ptree.hpp>
 #include <iostream>
-
+#include <array>
 
 class Genom {
 public:
@@ -17,7 +17,7 @@ public:
 	}
 };
 
-Genom generateGenom() {
+inline Genom generateGenom() {
 	auto genom = Genom();
 
 	for (size_t i = 0; i < Genom::dna_size; i++)
@@ -27,7 +27,7 @@ Genom generateGenom() {
 	return genom;
 };
 
-void printOutGenom(const Genom &genom)
+inline void printOutGenom(const Genom &genom)
 {
 	auto gen = genom.m_gens.cbegin();
 	std::cout << "Genom (" << *gen++;
@@ -45,7 +45,6 @@ class GeneticGenerator
 public:
 	GeneticGenerator();
 	~GeneticGenerator();
-
 	
 };
 
